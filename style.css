@@ -40,9 +40,10 @@ h6 {
   .nav-pills {
   font-family: Lobster;
   font-size: 1.8em;
-  background-color: black;
+  
 
 }
+
 .btn-default {
   background-color: black;
   color: white;
@@ -113,6 +114,7 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
+
 section {
   padding: 100px 0;
 }
