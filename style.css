@@ -474,3 +474,71 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
+
+::-moz-selection {
+  text-shadow: none;
+  background: #fed136;
+}
+::selection {
+  text-shadow: none;
+  background: #fed136;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #fed136;
+}
+
+.visit {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.picture:hover .image {
+  opacity: 0.3;
+}
+
+.picture:hover .visit {
+  opacity: 1;
+}
+
+.picture img {
+    height: 35vh;
+}
+
+.text {
+  background-color: #fed136;
+  color: white;
+  font-size: 16px;
+  padding: 16px 25px;
+  text-decoration: none;
+}
+
+#about {
+  height: 400px;
+}
+
+#about h1 {
+  padding-bottom: 80px;
+}
+
+#about p {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 16px;
+}
+
+.headshot {
+  margin-bottom: 200px;
+}
+
