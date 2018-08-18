@@ -492,6 +492,11 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+#bio {
+    font-size: 35px;
+    color: black;
+    line-height: inherit;
+}
 
 .visit {
   transition: .5s ease;
